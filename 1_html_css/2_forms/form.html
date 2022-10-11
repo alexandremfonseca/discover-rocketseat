@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
+
+    <body>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <!-- Informações Pessoais -->
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input id="nome" type="text"><br>
+                <label for="password">Senha:</label>
+                <input id="password" type="password" pattern="[0-9a-fA-F]{4,8}" maxlength="8" size="8" title="Apenas HEX de no mínimo 4 e no máximo 8 caracteres serão aceitos!" required><br>
+                <label for="date">Data de Nascimento:
+                </label>
+                <input id="date" type="date"><br>
+                <label for="email">E-Mail:</label>
+                <input id="email" type="email" pattern=".+@gmail\.com"><br>
+                <label for="age">Idade:</label>
+                <input id="age" type="number"><br>
+                <label for="file">Arquivo:</label>
+                <input id="file" type="file"><br>
+            </fieldset>
+            <!-- Interesses -->
+            <fieldset>
+                <legend>Interesses</legend>
+                <div>
+                    <label for="sports">Esportes</label>
+                    <input id="sports" name="interest" type="checkbox">
+                </div>
+                <div>
+                    <label for="music">Música</label>
+                    <input id="music" name="interest" type="checkbox">
+                </div>
+                <div>
+                    <label for="games">Videogames</label>
+                    <input id="games" name="interest" type="checkbox">
+                </div>
+            </fieldset>
+            <!-- Quer tomar um café? -->
+            <fieldset>
+                <legend>Quer tomar um café?</legend>
+                <label for="yes">Sim</label>
+                <input type="radio" id="yes" name="coffee" value="yes" checked>
+                <label for="no">Não</label>
+                <input type="radio" id="no" name="coffee" value="no"><br>
+            </fieldset>
+            <!-- Mensagem -->
+            <fieldset>
+                <legend>Mensagem</legend>
+                <label for="message"></label>
+                <textarea name="message" id="message" cols="50" rows="10"></textarea>
+            </fieldset>
+            <!-- Pets -->
+            <fieldset>
+                <legend>Pets</legend>
+                <label>Escolha um ou mais pets: <br>
+                    <select name="pets" multipe size="4">
+                        <optgroup label="Pets de 4 patas">
+                            <option value="dog">Cachorro</option>
+                            <option value="cat">Gato</option>
+                            <option value="hamster">Hamster</option>
+                        </optgroup>
+                        <optgroup label="Pets Voadores">
+                            <option value="parrot">Papagaio</option>
+                            <option value="bat">Morcego</option>
+                            <option value="fly">Mosca</option>
+                        </optgroup>
+                    </select>
+                </label>
+            </fieldset>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </form>    
+    </body>
+</html>

@@ -1,0 +1,12 @@
+* {
+    margin: 10px;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+strong {
+    color: red;
+}
