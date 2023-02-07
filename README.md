@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Rocketseat's Discover Exercises</h1>
+<h1 align="center">🚀 Rocketseat's Discover Course</h1>
 
 <h4 align="center"> 
 	 Status: Finished
@@ -12,7 +12,7 @@
 
 ## About
 
-🚀 Rocketseat's Discover Exercises is a repository created to store exercises developed throughout Rocketseat's Discover course. It contains exercises all the way from basic Front-End tools, such as HTML and CSS to more advanced Full Stack tools, such as React.js, TypeScript, Node.js and more!
+🚀 Rocketseat's Discover Course is a repository created to store exercises developed throughout Rocketseat's Discover course. It contains exercises all the way from basic Front-End tools, such as HTML and CSS to more advanced Full Stack tools, such as React.js, TypeScript, Node.js and more!
 
 ## Tech Stack
 
